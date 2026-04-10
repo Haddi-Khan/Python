@@ -1,0 +1,7 @@
+list1= [1,2,3,4,5,6,7,8,9,10,11,12,13,15,16,17]
+print(list1)
+#index 
+print (list1[1:17:5])
+# CHANGING negative indexing to positive index
+print (list1[-3])
+print(list [16-3])

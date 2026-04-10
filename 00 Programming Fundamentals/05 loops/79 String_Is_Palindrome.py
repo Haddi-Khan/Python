@@ -1,0 +1,11 @@
+# 79.	Check if a string is palindrome using a loop.
+s = "madam"
+rev = ""
+
+for ch in s:
+    rev = ch + rev
+
+if s == rev:
+    print("Palindrome")
+else:
+    print("Not Palindrome")

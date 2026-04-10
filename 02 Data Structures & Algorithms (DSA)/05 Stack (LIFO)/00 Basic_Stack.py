@@ -1,0 +1,10 @@
+stack = []
+stack.append(10)
+stack.append(20)
+stack.append(30)
+print("Stack after push:", stack)
+top_element = stack.pop()
+print("Popped element:", top_element)
+print("Top element:", stack[-1])
+print("Is stack empty?", len(stack) == 0)
+print("Stack size:", len(stack))
